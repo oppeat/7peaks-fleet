@@ -12,9 +12,10 @@
 - Open terminal or cmd in this folder, type `npm i && npm start` if the console print `Application is running on port 9000
 DB Connected!` this is done. 
 
+### Backend API
+1. URL: `/vehicle/register` Method: `POST` (Register Vehicle to User)
+- Body { userId: string, vehicleId: string}
+
 ## Running frontend Client
 - Open fleet-frontend folder
 - Open terminal or cmd in this folder, type `npm i && npm start` -> the web should be running automatically.
-
-## Backend API
-- 
